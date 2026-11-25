@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DarbSec - دربك الآمن للسايبر | مشروع تعليمي ومحفظة أعمال يساعدك على استكشاف الشهادة المناسبة حسب دورك والمعاهد في مدينتك.">
+  <meta name="keywords" content="DarbSec, دربك الآمن للسايبر, أمن سيبراني, شهادات, مشروع تعليمي, Portfolio">
+  <meta property="og:title" content="DarbSec - دربك الآمن للسايبر">
+  <meta property="og:description" content="مشروع تعليمي - محفظة أعمال لـ Fahad Al Subaei. ليس خدمة رسمية ولا جهة معتمدة.">
+  <meta name="referrer" content="no-referrer">
+  <title>DarbSec - دربك الآمن للسايبر</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/data.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+<body class="home-page light">
+  <section id="setup" class="setup-screen" hidden role="dialog" aria-modal="true" aria-labelledby="setup-title">
+    <div class="setup-card">
+      <div class="wordmark" dir="ltr">DarbSec<small dir="rtl">دربك الآمن للسايبر</small></div>
+      <div class="progress" aria-hidden="true"><div id="setup-progress" class="bar"></div></div>
+      <form id="setup-form"><div id="setup-body"><h2 id="setup-title">اختر دولتك</h2><p>السعودية / Saudi Arabia</p></div></form>
+      <p class="setup-privacy">مشروع تعليمي - محفظة أعمال. لا يتم جمع أي بيانات شخصية. تُحفظ اختيارات الدولة والمدينة والدور داخل جلسة التبويب فقط.</p>
+      <noscript><p>فعّل JavaScript لإكمال اختيار المدينة والدور وبدء الاختبار.</p></noscript>
+    </div>
+  </section>
+  <div id="app">
+    <div class="cyber-bg" aria-hidden="true"><div class="cyber-grid"></div><div class="cyber-lines"></div></div>
+    <header class="nav-bar"><div class="nav-container">
+      <a href="./index.html" class="wordmark" dir="ltr">DarbSec<small dir="rtl">دربك الآمن للسايبر</small></a>
+      <div class="nav-actions"><span id="current-context" hidden></span><button type="button" class="secondary-btn" id="header-change-city" hidden>تغيير المدينة / Change City</button><button class="nav-theme-btn" id="theme-toggle" type="button" aria-label="تبديل المظهر">◐</button></div>
+    </div></header>
+    <main id="main-content" class="main-wrapper landing-layout">
+      <section id="home-screen" class="landing-screen" aria-labelledby="home-title">
+        <div class="landing-hero">
+          <span class="landing-eyebrow">مشروع تعليمي · محفظة أعمال</span>
+          <h1 id="home-title" tabindex="-1">DarbSec - دربك الآمن للسايبر</h1>
+          <p class="landing-description">مشروع تعليمي يساعدك تعرف المسار والشهادة المناسبة لك في الأمن السيبراني حسب دورك الحالي، ويعرض لك المعاهد الموجودة في مدينتك فقط.</p>
+          <button type="button" id="start-test" class="landing-start">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2h6v2M8 10l1.5 1.5L12 9M14 10h2M8 16l1.5 1.5L12 15M14 16h2"/></svg>
+            <span>ابدأ الاختبار / Start Test</span>
+          </button>
+          <p class="landing-caption">18 سؤالًا · نتيجة إرشادية · دون تسجيل</p>
+        </div>
+        <section class="landing-section" aria-labelledby="how-title">
+          <h2 id="how-title">كيف يعمل؟</h2>
+          <ol class="landing-steps">
+            <li><span class="landing-step-number" aria-hidden="true">١</span><h3>اختر دولتك ومدينتك ودورك</h3><p>حدد اختياراتك لتبدأ التجربة المناسبة لك.</p></li>
+            <li><span class="landing-step-number" aria-hidden="true">٢</span><h3>جاوب على 18 سؤال</h3><p>اختر الإجابات الأقرب إلى اهتماماتك الحالية.</p></li>
+            <li><span class="landing-step-number" aria-hidden="true">٣</span><h3>احصل على مسارك المقترح والمعاهد في مدينتك</h3><p>تعرّف على نقطة البداية الأقرب إلى ميولك.</p></li>
+          </ol>
+        </section>
+        <section class="landing-section" aria-labelledby="outcome-title">
+          <h2 id="outcome-title">وش بيطلع لك في النتيجة؟</h2>
+          <div class="landing-outcomes"><article><h3>مسارك المقترح</h3><p>الاتجاه السيبراني الأقرب إلى إجاباتك.</p></article><article><h3>نسبة المطابقة</h3><p>توزيع ميولك على المسارات المختلفة.</p></article><article><h3>أفضل بداية لك</h3><p>خطوة عملية تبدأ منها رحلتك.</p></article><article><h3>مشروع يعزز سيرتك</h3><p>فكرة تطبيقية مرتبطة بمسارك المقترح.</p></article></div>
+        </section>
+        <section class="landing-about" aria-labelledby="about-title"><h2 id="about-title">عن المشروع</h2><p>مشروع تعليمي - محفظة أعمال، ليس خدمة رسمية ولا جهة معتمدة، ولا يتم جمع أي بيانات شخصية.</p></section>
+      </section>
+
+      <section class="quiz-shell" id="quiz-container" hidden aria-labelledby="quiz-title"><div class="quiz-page-heading"><span class="quiz-kicker">DarbSec - دربك الآمن للسايبر</span><h1 id="quiz-title">اختبار مستشار المسار السيبراني</h1><p id="quiz-intro-description">استكشف المسار والشهادات الأقرب إلى ميولك ودورك الحالي، وتعرّف على المعاهد في مدينتك.</p></div><div class="progress" aria-hidden="true"><div class="bar" id="bar"></div></div><div id="quiz-content" tabindex="-1" aria-live="polite"></div></section>
+    </main>
+    <footer class="site-footer"><p>DarbSec - دربك الآمن للسايبر | مشروع تعليمي - محفظة أعمال (Portfolio) | ليس خدمة رسمية ولا جهة معتمدة | لا يتم جمع أي بيانات شخصية | تطوير Fahad Al Subaei</p><small dir="ltr">Educational Portfolio Project - Not an Official Service - No Personal Data Collected</small><p class="visitor-line">عدد الزوار: <strong id="visitor-count">٠</strong> <small>(عداد محلي لهذه الجلسة)</small></p></footer>
+  </div>
+</body>
+</html>
